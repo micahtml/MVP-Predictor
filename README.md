@@ -1,6 +1,6 @@
 # NBA MVP Performance Based Predictive Model
 
-This is a Python program that analyzes the performance of NBA players and predicts the top MVP candidates based on their stats. It uses the pandas library to scrape NBA season stat leaders data from basketball-reference.com, and then performs data cleaning and exploratory data analysis using Plotly to create interactive charts.
+This is a Python program that analyzes the performance of NBA players and predicts the top MVP candidates based purely on their stats and performances. It uses the pandas library to scrape NBA season stat leaders data from basketball-reference.com, and then performs data cleaning and exploratory data analysis using Plotly to create interactive charts.
 
 ## How it works
 
