@@ -28,7 +28,7 @@ numeric_cols = ['G', 'MP', 'FG', 'FGA', '3P', '3PA', 'FT', 'FTA',
 df[numeric_cols] = df[numeric_cols].apply(pd.to_numeric, errors='coerce')
 
 # Select the top 5 MVP candidates based on points, rebounds, assists, games played, and minutes played
-df['MVP_Score'] = df['PTS'] + df['TRB'] + df['AST']
+df['MVP_Score'] = df['PTS'] + df['TRB'] + df['AST'] + df['G']
 mvp_df = df[['Player', 'Pos', 'Age', 'Tm', 'G', 'MP', 'PTS', 'TRB', 'AST', 'MVP_Score']].sort_values('MVP_Score', ascending=False).head(5)
 
 print('Top 5 Candidates in NBA 2023 season (Performance based)')
