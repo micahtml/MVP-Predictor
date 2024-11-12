@@ -1,5 +1,5 @@
-# import pandas as pd
-# import plotly.graph_objs as go
+import pandas as pd
+import plotly.graph_objs as go
 
 # Define the URL for the NBA season stat leaders data
 url = "https://www.basketball-reference.com/leagues/NBA_2025_totals.html"
