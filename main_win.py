@@ -66,7 +66,7 @@ fig.add_trace(go.Bar(name="Games Played", x=mvp_df["Player"], y=mvp_df["G"]))
 
 
 fig.update_layout(
-    title="Top 5 MVP Candidates in NBA 2023-24 Season (Performance based)",
+    title="Top 5 MVP Candidates in NBA 2024-25 Season (Performance based)",
     xaxis_title="Player",
     yaxis_title="Stats",
     barmode="group",
