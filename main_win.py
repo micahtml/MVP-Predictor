@@ -52,7 +52,7 @@ mvp_df = (
     .head(5)
 )
 
-print("Top 5 Candidates in NBA 2023-24 season (Performance based)")
+print("Top 5 Candidates in NBA 2024-25 season (Performance based)")
 print(mvp_df)
 
 # Create a bar chart of the top 5 MVP candidates with their stats
