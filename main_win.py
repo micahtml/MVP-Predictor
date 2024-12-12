@@ -23,26 +23,26 @@ df.drop_duplicates(inplace=True)
 df.dropna(how="all", inplace=True)
 
 # Convert the relevant columns to numeric data type
-numeric_cols = [
-    "G",
-    "MP",
-    "FG",
-    "FGA",
-    "3P",
-    "3PA",
-    "FT",
-    "FTA",
-    "ORB",
-    "DRB",
-    "TRB",
-    "AST",
-    "STL",
-    "BLK",
-    "TOV",
-    "PF",
-    "PTS",
-]
-df[numeric_cols] = df[numeric_cols].apply(pd.to_numeric, errors="coerce")
+# numeric_cols = [
+#     "G",
+#     "MP",
+#     "FG",
+#     "FGA",
+#     "3P",
+#     "3PA",
+#     "FT",
+#     "FTA",
+#     "ORB",
+#     "DRB",
+#     "TRB",
+#     "AST",
+#     "STL",
+#     "BLK",
+#     "TOV",
+#     "PF",
+#     "PTS",
+# ]
+# df[numeric_cols] = df[numeric_cols].apply(pd.to_numeric, errors="coerce")
 
 # Select the top 5 MVP candidates based on points, rebounds, assists, games played, and minutes played
 df["MVP_Score"] = df["PTS"] + df["TRB"] + df["AST"] + df["G"] + df["FGA"]
