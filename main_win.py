@@ -2,7 +2,7 @@
 # import plotly.graph_objs as go
 
 # # Define the URL for the NBA season stat leaders data
-# url = "https://www.basketball-reference.com/leagues/NBA_2025_totals.html"
+url = "https://www.basketball-reference.com/leagues/NBA_2025_totals.html"
 
 # Use pandas to read the HTML table into a DataFrame
 df = pd.read_html(url)[0]
