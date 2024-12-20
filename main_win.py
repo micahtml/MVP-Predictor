@@ -62,7 +62,7 @@ fig.add_trace(go.Bar(name="Points", x=mvp_df["Player"], y=mvp_df["PTS"]))
 fig.add_trace(go.Bar(name="Rebounds", x=mvp_df["Player"], y=mvp_df["TRB"]))
 fig.add_trace(go.Bar(name="Assists", x=mvp_df["Player"], y=mvp_df["AST"]))
 fig.add_trace(go.Bar(name="Games Played", x=mvp_df["Player"], y=mvp_df["G"]))
-# fig.add_trace(go.Bar(name='Field Goal Average', x=mvp_df['Player'], y=mvp_df['FGA']))
+fig.add_trace(go.Bar(name='Field Goal Average', x=mvp_df['Player'], y=mvp_df['FGA']))
 
 
 fig.update_layout(
