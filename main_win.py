@@ -47,7 +47,7 @@ df[numeric_cols] = df[numeric_cols].apply(pd.to_numeric, errors="coerce")
 # Select the top 5 MVP candidates based on points, rebounds, assists, games played, and minutes played
 df["MVP_Score"] = df["PTS"] + df["TRB"] + df["AST"] + df["G"] + df["FGA"]
 mvp_df = (
-    df[["Player", "Pos", "Age", "G", "MP", "PTS", "TRB", "AST", "MVP_Score"]]
+    df[["Player", "Pos", "Age", "G", "MP", "PTS", "TRB", "AST", "FGA", "MVP_Score"]]
     .sort_values("MVP_Score", ascending=False)
     .head(5)
 )
