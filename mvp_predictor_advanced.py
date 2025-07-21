@@ -55,7 +55,7 @@ def plot_top_candidates(mvp_df: pd.DataFrame):
     return fig
 
 def main():
-    st.title("🏀 NBA MVP Predictor (Advanced)")
+    st.title("🏀 NBA MVP Predictor Dashboard")
     st.markdown("Analyze NBA season stats and predict the top MVP candidates using customizable scoring.")
 
     season = st.slider("Select NBA Season", 2000, 2025, 2025)
